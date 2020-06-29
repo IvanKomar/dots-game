@@ -1,0 +1,31 @@
+.winners-title {
+    font-size: 36px;
+    color: rgba(112, 108, 108, 0.7);
+}
+.winners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #b9c4c5;
+    padding: 20px;
+    margin-top: 5px;
+}
+.winner-wrapper{
+    max-width: 500px;
+    position: relative;
+}
+.winners-item {
+    word-wrap: break-word;
+    overflow-x: hidden;
+    padding: 5px;
+    font-size: 24px;
+    color: rgba(104, 104, 114, 0.7);
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .winner-wrapper{
+        width: 100%;
+        max-width: 100%;
+    }
+}

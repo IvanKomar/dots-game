@@ -1,0 +1,14 @@
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.wrapper-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+h1 {
+    text-align: center;
+}
